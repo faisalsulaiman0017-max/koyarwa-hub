@@ -1,7 +1,7 @@
 import crypto from 'crypto';
 
 // Wannan shine Secret Key din ka na Paystack. Ka je Settings > API Keys ka kwafa shi
-const PAYSTACK_SECRET_KEY = 'sk_test_XXXXXXXXXXX'; 
+const PAYSTACK_SECRET_KEY =sk_test_00af2be4b45c3f050484f5803fd0a50960327156
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     const amount = event.data.amount / 100; // Paystack tana aika kobo, mu raba 100
     
     // 3. GA LINK DIN KASAR MU - KAI ZAKA SAKE SHI
-    const whatsappGroupLink = 'https://chat.whatsapp.com/XXXXXXXXXXXX'; 
+    const whatsappGroupLink =https://chat.whatsapp.com/BVIuvD8sweZKvgBIelh6PD?s=cl&p=a&mlu=4&ilr=4
 
     // 4. AIKO DA SAKO - YANZU ZA MU LOG SHI KAWAI
     console.log(`Biyan ya yi nasara!`);
